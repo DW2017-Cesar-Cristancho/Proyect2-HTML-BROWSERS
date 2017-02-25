@@ -1,20 +1,90 @@
+
 <html>
 <head>
-<title>HTML</title>
-</HEAD>
+<title>Investigacion HTML y Borwsers</title>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" background="Imagenes/barbkg.gif" marginwidth="0" marginheight="0">
+<table width="100%" border="0" background="Imagenes/topbarbkg.gif" height="103" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td height="62" align="left" valign="top"><img src="Imagenes/topbar.gif" width="750" height="126"> 
+    </td>
+  </tr>
+</table>
 
-<body>
-<p>Menu</p>
-<a href="#about">Un Poco de mi</a>
+<table cellspacing="0" cellpadding="0" border="0">
 
-<h3>lenguaje HTML</h3>
-<h3>Versiones</h3>
-<h3>Historia</h3>
-<h3>Tag</h3>
+  <tr> 
+    <td width="154" height="219" valign="top"> 
+      <div align="left"><a href="C:\Proyecto_HTML_Browser\HTML\HTML.html">HTML</a><p>
+			<a href="C:\Proyecto_HTML_Browser\Browser\Browser.html">Browsers</a><p>
+			<a href="#"><img src="Imagenes/chatbutton.gif" width="101" height="67" name="Imagen3" border="0"></a>
+			<a href="#"><img src="Imagenes/feedbackbut.gif" width="101" height="67" name="Imagen4" border="0"></a></div>
+    </td>
+
+    <td width="583" height="219" valign="top"> 
+      <div align="left"></div>
+<a href="C:\Proyecto_HTML_Browser\Index.html">Volver al Inicio</a><br> 
+         
+<img src="Imagenes/image001.jpg" width="101" height="101" name="Imagen3" border="0">
+
+<h3>Lenguaje HTML</h3>
+
+<p>HTML, sigla en inglés de HyperText Markup Language (lenguaje de marcas de hipertexto), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.</p>
+
+<h3>Principales Etiquetas</h3>
+<p>
+&lt;html&gt; : define el inicio del documento HTML, le indica al navegador que lo que viene a continuación debe ser interpretado como código HTML. Esto es así de facto, ya que en teoría lo que define el tipo de documento es el DOCTYPE, que significa la palabra justo tras DOCTYPE el tag de raíz.<br>
+&lt; script&gt;: incrusta un script en una web, o llama a uno mediante src="url del script". Se recomienda incluir el tipo MIME en el atributo type, en el caso de JavaScript text/javascript.<br>
+&lt; head&gt;: define la cabecera del documento HTML; esta cabecera suele contener información sobre el documento que no se muestra directamente al usuario como, por ejemplo, el título de la ventana del navegador. Dentro de la cabecera <head> es posible encontrar:<br>
+&lt; title&gt;: define el título de la página. Por lo general, el título aparece en la barra de título encima de la ventana.<br>
+&lt; link&gt;: para vincular el sitio a hojas de estilo o iconos. Por ejemplo:&lt;link rel="stylesheet" href="/style.css" type="text/css"&gt;.<br>
+&lt; style&gt;: para colocar el estilo interno de la página; ya sea usando CSS u otros lenguajes similares. No es necesario colocarlo si se va a vincular a un archivo externo usando la etiqueta &lt;link&gt;.<br>
+&lt; meta&gt;: para metadatos como la autoría o la licencia, incluso para indicar parámetros http (mediante http-equiv="") cuando no se pueden modificar por no estar disponible la configuración o por dificultades con server-side scripting.<br>
+&lt; body&gt;: define el contenido principal o cuerpo del documento. Esta es la parte del documento html que se muestra en el navegador; dentro de esta etiqueta pueden definirse propiedades comunes a toda la página, como color de fondo y márgenes. Dentro del cuerpo &lt;body&gt; es posible encontrar numerosas etiquetas. A continuación se indican algunas a modo de ejemplo:<br>
+&lt; h1&gt; a &lt;h6&gt;: encabezados o títulos del documento con diferente relevancia.<br>
+&lt; table&gt;: define una tabla.<br>
+&lt; tr&gt;: fila de una tabla.<br>
+&lt; td&gt;: celda de una tabla (debe estar dentro de una fila).<br>
+&lt; a&gt;: hipervínculo o enlace, dentro o fuera del sitio web. Debe definirse el parámetro de pasada por medio del atributo href. Por ejemplo: &lt;a href="http://www.example.com" title="Ejemplo" target="_blank" tabindex="1"&gt;Ejemplo&lt;/a&gt; se representa como ejemplo.14<br>
+&lt; div&gt;: división de la página. Se recomienda, junto con css, en vez de <table> cuando se desea alinear contenido.<br>
+&lt; img&gt;: imagen. Requiere del atributo src, que indica la ruta en la que se encuentra la imagen. Por ejemplo: &lt;img src="./imágenes/mifoto.jpg" /&gt;. Es conveniente, por accesibilidad, poner un atributo alt="texto alternativo".<br>
+&lt; li&gt;&lt; ol&gt;&lt; ul&gt;: etiquetas para listas.<br>
+&lt; b&gt;: texto en negrita (etiqueta desaprobada. Se recomienda usar la etiqueta &lt;strong&gt;).<br>
+&lt; i&gt;: texto en cursiva (etiqueta desaprobada. Se recomienda usar la etiqueta &lt;em&gt;).<br>
+&lt; s&gt;: texto tachado (etiqueta desaprobada. Se recomienda usar la etiqueta &lt;del&gt;).<br>
+&lt; u&gt;: Antes texto subrayado. A partir de HTML 5 define porciones de texto diferenciadas o destacadas del resto, para indicar correcciones por ejemplo (etiqueta desaprobada en HTML 4.01 y redefinida en HTML 5).15 16<br>
+La mayoría de etiquetas deben cerrarse como se abren, pero con una barra («/») tal como se muestra en los siguientes ejemplos:<br>
+<br>
+&lt; table&gt;&lt; tr&gt;&lt; td&gt;Contenido de una celda&lt; /td&gt; &lt; /tr&gt; &lt; /table&gt;.
+&lt; script&gt;Código de un script integrado en la página&lt; /script&gt;
+</p>
+
 <h3>Consorcio 3WC</h3>
-<h3>Markdown</h3>
-<h3>NoteBooks</h3>
+l W3C anunció el 1 de febrero de 2017 que el World Wide Web Consortium (W3C) y el International Digital Publishing Forum (IDPF) se han fusionado para alinear las tecnologías de la Web y de la edición y publicación digital.
+<p>“El W3C está encantado de ganar la experiencia de la industria editorial con su rica tradición de excelencia en el desarrollo de muchas formas de contenido para la publicación de libros, revistas, diarios, materiales educativos y publicaciones académicas”, comentó el Dr. Jeff Jaffe, director de operaciones del W3C. “Trabajando conjuntamente, Publicaciones@W3C traerá características novedosas y emocionantes para el futuro de la publicación, la edición y la lectura utilizando las tecnologías Web”.</p><br>
 
+
+<a href="C:\Proyecto_HTML_Browser\Index.html">Volver al Inicio</a>
+
+
+
+        <br><br><br><br><br><br>
+	<script language=JavaScript src="vnu_datestamp.js"></script>
+        
+
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+        </font> </div>
+	
+	
+    </td>
+
+  </tr>
+</table>
 </body>
-
 </html>
+
+
+
+
+
+
